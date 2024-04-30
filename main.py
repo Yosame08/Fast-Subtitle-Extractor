@@ -15,8 +15,9 @@ import argparse
 from configparser import ConfigParser
 from tqdm import tqdm
 from PIL import ImageFont, ImageDraw, Image
-from SRT import SRT
 from paddleocr import PaddleOCR
+
+from SRT import SRT
 print("Imported modules successfully")
 
 parser = argparse.ArgumentParser(description='Process video file.')
